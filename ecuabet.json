@@ -1,0 +1,1727 @@
+{
+  "scraped_at": "2025-11-28T20:46:08.386Z",
+  "url": "https://ecuabet.com/deportes/66",
+  "count": 40,
+  "events": [
+    {
+      "status": "En vivo57'",
+      "competitors": [
+        {
+          "name": "Alemania (F)",
+          "score": "0"
+        },
+        {
+          "name": "España (F)",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.70",
+              "label": "Alemania (F)"
+            },
+            {
+              "value": "2.10",
+              "label": "Empate"
+            },
+            {
+              "value": "2.95",
+              "label": "España (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.42",
+              "label": "Más de 0.5"
+            },
+            {
+              "value": "2.66",
+              "label": "Menos de 0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo36'",
+      "competitors": [
+        {
+          "name": "Francia (F)",
+          "score": "0"
+        },
+        {
+          "name": "Suecia (F)",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.12",
+              "label": "Francia (F)"
+            },
+            {
+              "value": "2.62",
+              "label": "Empate"
+            },
+            {
+              "value": "3.80",
+              "label": "Suecia (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.84",
+              "label": "Más de 1.5"
+            },
+            {
+              "value": "1.82",
+              "label": "Menos de 1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo45'",
+      "competitors": [
+        {
+          "name": "Getafe CF",
+          "score": "0"
+        },
+        {
+          "name": "Elche",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.00",
+              "label": "Getafe CF"
+            },
+            {
+              "value": "2.16",
+              "label": "Empate"
+            },
+            {
+              "value": "3.75",
+              "label": "Elche"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.75",
+              "label": "Más de 1.5"
+            },
+            {
+              "value": "1.42",
+              "label": "Menos de 1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo58'",
+      "competitors": [
+        {
+          "name": "Real Sporting de Gijón",
+          "score": "0"
+        },
+        {
+          "name": "Andorra",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.53",
+              "label": "Real Sporting de Gijón"
+            },
+            {
+              "value": "2.10",
+              "label": "Empate"
+            },
+            {
+              "value": "5.00",
+              "label": "Andorra"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.47",
+              "label": "Más de 0.5"
+            },
+            {
+              "value": "2.54",
+              "label": "Menos de 0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo45'",
+      "competitors": [
+        {
+          "name": "Oxford United",
+          "score": "1"
+        },
+        {
+          "name": "Ipswich Town",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.20",
+              "label": "Oxford United"
+            },
+            {
+              "value": "3.00",
+              "label": "Empate"
+            },
+            {
+              "value": "3.50",
+              "label": "Ipswich Town"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.87",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.87",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "Como",
+          "score": "1"
+        },
+        {
+          "name": "Sassuolo",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.30",
+              "label": "Como"
+            },
+            {
+              "value": "4.80",
+              "label": "Empate"
+            },
+            {
+              "value": "13.00",
+              "label": "Sassuolo"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.05",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.72",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo58'",
+      "competitors": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "0"
+        },
+        {
+          "name": "RB Leipzig",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.30",
+              "label": "Borussia Mönchengladbach"
+            },
+            {
+              "value": "2.35",
+              "label": "Empate"
+            },
+            {
+              "value": "3.00",
+              "label": "RB Leipzig"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.30",
+              "label": "Más de 1.5"
+            },
+            {
+              "value": "1.57",
+              "label": "Menos de 1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "Metz",
+          "score": "0"
+        },
+        {
+          "name": "Rennes",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "9.00",
+              "label": "Metz"
+            },
+            {
+              "value": "4.20",
+              "label": "Empate"
+            },
+            {
+              "value": "1.40",
+              "label": "Rennes"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.83",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.91",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo87'",
+      "competitors": [
+        {
+          "name": "Annecy",
+          "score": "1"
+        },
+        {
+          "name": "Grenoble",
+          "score": "2"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "71.00",
+              "label": "Annecy"
+            },
+            {
+              "value": "8.00",
+              "label": "Empate"
+            },
+            {
+              "value": "1.05",
+              "label": "Grenoble"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "3.50",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.26",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo84'",
+      "competitors": [
+        {
+          "name": "Sarreguemines",
+          "score": "2"
+        },
+        {
+          "name": "Nancy",
+          "score": "3"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "51.00",
+              "label": "Sarreguemines"
+            },
+            {
+              "value": "6.33",
+              "label": "Empate"
+            },
+            {
+              "value": "1.10",
+              "label": "Nancy"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.20",
+              "label": "Más de 5.5"
+            },
+            {
+              "value": "1.60",
+              "label": "Menos de 5.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo29'",
+      "competitors": [
+        {
+          "name": "Vitoria Guimaraes",
+          "score": "2"
+        },
+        {
+          "name": "Avs Futebol Sad",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.03",
+              "label": "Vitoria Guimaraes"
+            },
+            {
+              "value": "13.00",
+              "label": "Empate"
+            },
+            {
+              "value": "40.00",
+              "label": "Avs Futebol Sad"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.77",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.93",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo86'",
+      "competitors": [
+        {
+          "name": "Zwolle",
+          "score": "2"
+        },
+        {
+          "name": "Heerenveen",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.18",
+              "label": "Zwolle"
+            },
+            {
+              "value": "5.10",
+              "label": "Empate"
+            },
+            {
+              "value": "35.00",
+              "label": "Heerenveen"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.95",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.35",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "KV Mechelen",
+          "score": "0"
+        },
+        {
+          "name": "Standard Lieja",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.10",
+              "label": "KV Mechelen"
+            },
+            {
+              "value": "2.25",
+              "label": "Empate"
+            },
+            {
+              "value": "3.30",
+              "label": "Standard Lieja"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.42",
+              "label": "Más de 1.5"
+            },
+            {
+              "value": "1.52",
+              "label": "Menos de 1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo59'",
+      "competitors": [
+        {
+          "name": "Radomiak Radom",
+          "score": "3"
+        },
+        {
+          "name": "Gornik",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": null,
+              "label": "Radomiak Radom"
+            },
+            {
+              "value": "26.00",
+              "label": "Empate"
+            },
+            {
+              "value": "151.00",
+              "label": "Gornik"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.60",
+              "label": "Más de 4.5"
+            },
+            {
+              "value": "1.45",
+              "label": "Menos de 4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "Portugal (F)",
+          "score": "1"
+        },
+        {
+          "name": "Países Bajos (F)",
+          "score": "2"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "10.50",
+              "label": "Portugal (F)"
+            },
+            {
+              "value": "4.33",
+              "label": "Empate"
+            },
+            {
+              "value": "1.26",
+              "label": "Países Bajos (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.84",
+              "label": "Más de 4.5"
+            },
+            {
+              "value": "1.82",
+              "label": "Menos de 4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo30'",
+      "competitors": [
+        {
+          "name": "Europa",
+          "score": "0"
+        },
+        {
+          "name": "Sabadell",
+          "score": "0"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": null,
+              "label": "Europa"
+            },
+            {
+              "value": null,
+              "label": "Empate"
+            },
+            {
+              "value": null,
+              "label": "Sabadell"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": null,
+              "label": "Más de 1.5"
+            },
+            {
+              "value": null,
+              "label": "Menos de 1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo60'",
+      "competitors": [
+        {
+          "name": "Moralo CP II",
+          "score": "4"
+        },
+        {
+          "name": "CF Piornal",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": null,
+              "label": "Moralo CP II"
+            },
+            {
+              "value": "26.00",
+              "label": "Empate"
+            },
+            {
+              "value": "51.00",
+              "label": "CF Piornal"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.90",
+              "label": "Más de 6.5"
+            },
+            {
+              "value": "1.77",
+              "label": "Menos de 6.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "Brentwood Town FC",
+          "score": "2"
+        },
+        {
+          "name": "Aveley",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.40",
+              "label": "Brentwood Town FC"
+            },
+            {
+              "value": "3.80",
+              "label": "Empate"
+            },
+            {
+              "value": "7.00",
+              "label": "Aveley"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.77",
+              "label": "Más de 4.5"
+            },
+            {
+              "value": "1.90",
+              "label": "Menos de 4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivoDescanso",
+      "competitors": [
+        {
+          "name": "Biggleswade FC",
+          "score": "0"
+        },
+        {
+          "name": "Hertford Town FC",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "4.20",
+              "label": "Biggleswade FC"
+            },
+            {
+              "value": "3.14",
+              "label": "Empate"
+            },
+            {
+              "value": "1.77",
+              "label": "Hertford Town FC"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.84",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.82",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "En vivo86'",
+      "competitors": [
+        {
+          "name": "Burnley Sub-21",
+          "score": "3"
+        },
+        {
+          "name": "Cardiff City Sub-U21",
+          "score": "1"
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": null,
+              "label": "Burnley Sub-21"
+            },
+            {
+              "value": "50.00",
+              "label": "Empate"
+            },
+            {
+              "value": "80.00",
+              "label": "Cardiff City Sub-U21"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.20",
+              "label": "Más de 4.5"
+            },
+            {
+              "value": "1.57",
+              "label": "Menos de 4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 16:00",
+      "competitors": [
+        {
+          "name": "Estudiantes de Queretaro",
+          "score": null
+        },
+        {
+          "name": "Club Deportivo San Juan del Río",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.30",
+              "label": "Estudiantes de Queretaro"
+            },
+            {
+              "value": "5.00",
+              "label": "Empate"
+            },
+            {
+              "value": "8.00",
+              "label": "Club Deportivo San Juan del Río"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.66",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.10",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 16:00",
+      "competitors": [
+        {
+          "name": "Santiago City FC",
+          "score": null
+        },
+        {
+          "name": "Melipilla",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.83",
+              "label": "Santiago City FC"
+            },
+            {
+              "value": "3.50",
+              "label": "Empate"
+            },
+            {
+              "value": "2.12",
+              "label": "Melipilla"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.55",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.20",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 16:00",
+      "competitors": [
+        {
+          "name": "Bolivia (F)",
+          "score": null
+        },
+        {
+          "name": "Colombia (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "46.00",
+              "label": "Bolivia (F)"
+            },
+            {
+              "value": "16.00",
+              "label": "Empate"
+            },
+            {
+              "value": null,
+              "label": "Colombia (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.75",
+              "label": "Más de 6.5"
+            },
+            {
+              "value": "1.95",
+              "label": "Menos de 6.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 16:00",
+      "competitors": [
+        {
+          "name": "Perú (F)",
+          "score": null
+        },
+        {
+          "name": "Chile (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "16.00",
+              "label": "Perú (F)"
+            },
+            {
+              "value": "7.00",
+              "label": "Empate"
+            },
+            {
+              "value": "1.14",
+              "label": "Chile (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.10",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.66",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 16:30",
+      "competitors": [
+        {
+          "name": "Cobresal",
+          "score": null
+        },
+        {
+          "name": "Colo-Colo",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.00",
+              "label": "Cobresal"
+            },
+            {
+              "value": "3.60",
+              "label": "Empate"
+            },
+            {
+              "value": "2.20",
+              "label": "Colo-Colo"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.62",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.20",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "EC Juventude",
+          "score": null
+        },
+        {
+          "name": "Bahia",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.10",
+              "label": "EC Juventude"
+            },
+            {
+              "value": "3.57",
+              "label": "Empate"
+            },
+            {
+              "value": "2.34",
+              "label": "Bahia"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.76",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.00",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "Cdt Real Oruro",
+          "score": null
+        },
+        {
+          "name": "Real Tomayapo",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.53",
+              "label": "Cdt Real Oruro"
+            },
+            {
+              "value": "4.20",
+              "label": "Empate"
+            },
+            {
+              "value": "4.50",
+              "label": "Real Tomayapo"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.90",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.80",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "Alamos F.C.",
+          "score": null
+        },
+        {
+          "name": "Promodep Central A.C.",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.01",
+              "label": "Alamos F.C."
+            },
+            {
+              "value": "13.00",
+              "label": "Empate"
+            },
+            {
+              "value": "46.00",
+              "label": "Promodep Central A.C."
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.66",
+              "label": "Más de 4.5"
+            },
+            {
+              "value": "2.10",
+              "label": "Menos de 4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "Club Soccer Atletico Tulancingo",
+          "score": null
+        },
+        {
+          "name": "PDLA FC",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "4.25",
+              "label": "Club Soccer Atletico Tulancingo"
+            },
+            {
+              "value": "4.00",
+              "label": "Empate"
+            },
+            {
+              "value": "1.64",
+              "label": "PDLA FC"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.05",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.70",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "OFC(Oceania)",
+          "score": null
+        },
+        {
+          "name": "Sangre de Campeon",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.08",
+              "label": "OFC(Oceania)"
+            },
+            {
+              "value": "3.75",
+              "label": "Empate"
+            },
+            {
+              "value": "2.90",
+              "label": "Sangre de Campeon"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.05",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.70",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:00",
+      "competitors": [
+        {
+          "name": "Defence Force FC",
+          "score": null
+        },
+        {
+          "name": "Morvant Caledonia United",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.32",
+              "label": "Defence Force FC"
+            },
+            {
+              "value": "5.00",
+              "label": "Empate"
+            },
+            {
+              "value": "6.66",
+              "label": "Morvant Caledonia United"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.90",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.80",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 17:30",
+      "competitors": [
+        {
+          "name": "Vasco da Gama",
+          "score": null
+        },
+        {
+          "name": "Internacional",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.39",
+              "label": "Vasco da Gama"
+            },
+            {
+              "value": "3.32",
+              "label": "Empate"
+            },
+            {
+              "value": "3.22",
+              "label": "Internacional"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.95",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.86",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 18:00",
+      "competitors": [
+        {
+          "name": "Paraguay (F)",
+          "score": null
+        },
+        {
+          "name": "Uruguay (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.67",
+              "label": "Paraguay (F)"
+            },
+            {
+              "value": "3.52",
+              "label": "Empate"
+            },
+            {
+              "value": "2.69",
+              "label": "Uruguay (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.80",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.90",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 18:00",
+      "competitors": [
+        {
+          "name": "Ecuador (F)",
+          "score": null
+        },
+        {
+          "name": "Venezuela (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "3.70",
+              "label": "Ecuador (F)"
+            },
+            {
+              "value": "3.45",
+              "label": "Empate"
+            },
+            {
+              "value": "2.13",
+              "label": "Venezuela (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.95",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.75",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 18:05",
+      "competitors": [
+        {
+          "name": "Argentino de Merlo",
+          "score": null
+        },
+        {
+          "name": "Excursionistas",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.25",
+              "label": "Argentino de Merlo"
+            },
+            {
+              "value": "3.00",
+              "label": "Empate"
+            },
+            {
+              "value": "3.00",
+              "label": "Excursionistas"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.20",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.60",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 18:30",
+      "competitors": [
+        {
+          "name": "Deportes Rengo",
+          "score": null
+        },
+        {
+          "name": "Deportes Linares",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "5.50",
+              "label": "Deportes Rengo"
+            },
+            {
+              "value": "4.20",
+              "label": "Empate"
+            },
+            {
+              "value": "1.44",
+              "label": "Deportes Linares"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.66",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.00",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 19:00",
+      "competitors": [
+        {
+          "name": "Aruba (F)",
+          "score": null
+        },
+        {
+          "name": "San Cristóbal y Nieves (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.10",
+              "label": "Aruba (F)"
+            },
+            {
+              "value": "4.20",
+              "label": "Empate"
+            },
+            {
+              "value": "2.66",
+              "label": "San Cristóbal y Nieves (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.75",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.90",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 19:00",
+      "competitors": [
+        {
+          "name": "Estados Unidos (F)",
+          "score": null
+        },
+        {
+          "name": "Italia (F)",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "1.35",
+              "label": "Estados Unidos (F)"
+            },
+            {
+              "value": "4.50",
+              "label": "Empate"
+            },
+            {
+              "value": "8.00",
+              "label": "Italia (F)"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.66",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "2.00",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 19:00",
+      "competitors": [
+        {
+          "name": "LDU Quito",
+          "score": null
+        },
+        {
+          "name": "Independiente del Valle",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "2.19",
+              "label": "LDU Quito"
+            },
+            {
+              "value": "3.35",
+              "label": "Empate"
+            },
+            {
+              "value": "3.64",
+              "label": "Independiente del Valle"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "1.83",
+              "label": "Más de 2.5"
+            },
+            {
+              "value": "1.83",
+              "label": "Menos de 2.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": "28/11 • 19:00",
+      "competitors": [
+        {
+          "name": "Abb",
+          "score": null
+        },
+        {
+          "name": "Always Ready",
+          "score": null
+        }
+      ],
+      "markets": [
+        {
+          "odds": [
+            {
+              "value": "12.00",
+              "label": "Abb"
+            },
+            {
+              "value": "5.66",
+              "label": "Empate"
+            },
+            {
+              "value": "1.17",
+              "label": "Always Ready"
+            }
+          ]
+        },
+        {
+          "odds": [
+            {
+              "value": "2.28",
+              "label": "Más de 3.5"
+            },
+            {
+              "value": "1.55",
+              "label": "Menos de 3.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
