@@ -2,7 +2,32 @@
 PLAYWRIGHT_BROWSERS_PATH = "/app/pw-browsers"
 
 [phases.setup]
-nixPkgs = ["nodejs"]
+# Instalamos Node.js y todas las librerías de sistema que Chromium necesita
+nixPkgs = [
+    "nodejs",
+    "nspr",
+    "nss",
+    "freetype",
+    "fontconfig",
+    "cairo",
+    "pango",
+    "alsa-lib",
+    "dbus",
+    "glib",
+    "gtk3",
+    "atk",
+    "cups",
+    "libdrm",
+    "libxkbcommon",
+    "mesa",
+    "xorg.libX11",
+    "xorg.libXcomposite",
+    "xorg.libXdamage",
+    "xorg.libXext",
+    "xorg.libXfixes",
+    "xorg.libXrandr",
+    "xorg.libxcb"
+]
 
 [phases.install]
 cmds = ["npm install", "npx playwright install chromium"]
