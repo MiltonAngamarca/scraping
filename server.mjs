@@ -3,7 +3,10 @@ import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { scrapeMatches } from './ecuabet-match-scraper.mjs';
+import {
+  scrapeMatches,
+  scrapePrematchEvents,
+} from './ecuabet-match-scraper.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,11 +14,12 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 3000;
 const JSON_FILE = path.join(__dirname, 'all_matches.json');
+const PREMATCH_JSON_FILE = path.join(__dirname, 'upcoming_matches.json');
 
 app.use(cors());
 app.use(express.json());
 
-// GET endpoint: Devuelve los datos del archivo JSON actual
+// GET endpoint: Devuelve los datos del archivo JSON actual (Live)
 app.get('/api/matches', (req, res) => {
   try {
     if (fs.existsSync(JSON_FILE)) {
@@ -31,16 +35,31 @@ app.get('/api/matches', (req, res) => {
   }
 });
 
-// POST endpoint: Ejecuta el scraping y devuelve los datos frescos
+// GET endpoint: Devuelve los datos del archivo JSON de Prematch
+app.get('/api/matches/prematch', (req, res) => {
+  try {
+    if (fs.existsSync(PREMATCH_JSON_FILE)) {
+      const data = fs.readFileSync(PREMATCH_JSON_FILE, 'utf8');
+      res.json(JSON.parse(data));
+    } else {
+      res
+        .status(404)
+        .json({ message: 'No prematch data found. Run scrape first.' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// POST endpoint: Ejecuta el scraping (Live) y devuelve los datos frescos
 app.post('/api/scrape', async (req, res) => {
   try {
-    console.log('Starting scrape process via API...');
+    console.log('Starting LIVE scrape process via API...');
     const data = await scrapeMatches();
 
-    // La función scrapeMatches ya guarda el archivo, pero devolvemos los datos aquí también
     res.json({
       success: true,
-      message: 'Scraping completed successfully',
+      message: 'Live scraping completed successfully',
       count: data.length,
       data: data,
     });
@@ -49,6 +68,28 @@ app.post('/api/scrape', async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Scraping failed',
+      error: error.message,
+    });
+  }
+});
+
+// POST endpoint: Ejecuta el scraping (Prematch) y devuelve los datos frescos
+app.post('/api/ecuabet/scrape/prematch', async (req, res) => {
+  try {
+    console.log('Starting PREMATCH scrape process via API...');
+    const data = await scrapePrematchEvents();
+
+    res.json({
+      success: true,
+      message: 'Prematch scraping completed successfully',
+      count: data.length,
+      data: data,
+    });
+  } catch (error) {
+    console.error('Prematch scraping failed:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Prematch scraping failed',
       error: error.message,
     });
   }

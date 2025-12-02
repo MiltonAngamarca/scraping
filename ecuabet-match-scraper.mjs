@@ -230,6 +230,168 @@ export async function scrapeMatches() {
   return allMatchesData;
 }
 
+export async function scrapePrematchEvents() {
+  console.log('Starting Prematch scraping...');
+  const browser = await chromium.launch({ headless: true });
+  const context = await browser.newContext({
+    viewport: { width: 1920, height: 1080 },
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  });
+  const page = await context.newPage();
+
+  const matchIds = new Set();
+  const processedIds = new Set();
+  const allMatchesData = [];
+
+  page.on('response', async (response) => {
+    const url = response.url();
+
+    // Intercept GetUpcoming to find Prematch IDs
+    if (url.includes('GetUpcoming')) {
+      try {
+        const contentType = response.headers()['content-type'];
+        if (contentType && contentType.includes('application/json')) {
+          const json = await response.json();
+          let events = [];
+          if (json.events && Array.isArray(json.events)) events = json.events;
+
+          if (events.length > 0) {
+            events.forEach((event) => {
+              const id = event.id;
+              if (id && !matchIds.has(id)) {
+                console.log(`Found new Prematch ID: ${id}`);
+                matchIds.add(id);
+              }
+            });
+          }
+        }
+      } catch (e) {}
+    }
+
+    // Intercept GetEventDetails to get match data directly
+    if (url.includes('GetEventDetails')) {
+      try {
+        const json = await response.json();
+        const responseId = json.id;
+
+        if (responseId) {
+          if (processedIds.has(responseId)) return;
+
+          console.log(`Captured details for prematch: ${responseId}`);
+
+          // Process the data
+          const matchData = {
+            matchId: responseId,
+            name: json.name || 'Unknown vs Unknown',
+            prematch: true, // Flag requested by user
+            url: `https://ecuabet.com/deportes/partido/${responseId}`,
+            data: {},
+          };
+
+          // Create a map of odds for easy lookup
+          const oddsMap = new Map();
+          const oddsArray = json.odds || (json.data && json.data.odds);
+
+          if (oddsArray) {
+            oddsArray.forEach((odd) => {
+              oddsMap.set(odd.id, odd);
+            });
+          }
+
+          // Process markets
+          const processedData = {};
+          const marketsArray = json.markets || (json.data && json.data.markets);
+
+          if (marketsArray) {
+            marketsArray.forEach((market) => {
+              const marketName = market.name;
+              const marketOdds = [];
+
+              const oddIds = market.desktopOddIds
+                ? market.desktopOddIds.flat()
+                : [];
+
+              oddIds.forEach((oddId) => {
+                const oddData = oddsMap.get(oddId);
+                if (oddData) {
+                  marketOdds.push({
+                    name: oddData.name || oddData.shortName,
+                    price: oddData.price,
+                    id: oddData.id,
+                  });
+                }
+              });
+
+              if (marketOdds.length > 0) {
+                processedData[marketName] = marketOdds;
+              }
+            });
+          }
+
+          matchData.data = processedData;
+          allMatchesData.push(matchData);
+          processedIds.add(responseId);
+        }
+      } catch (e) {
+        console.log('Error parsing GetEventDetails JSON:', e);
+      }
+    }
+  });
+
+  // Navigate to a page that triggers GetUpcoming (e.g. Futbol main page or "Proximos")
+  // Using the same listing page usually triggers Upcoming requests too, or we can try specific category
+  const listingUrl = 'https://ecuabet.com/deportes/66';
+  console.log(
+    `Navigating to listing page to gather Prematch IDs: ${listingUrl}...`
+  );
+
+  await page.goto(listingUrl, { waitUntil: 'domcontentloaded' });
+  await acceptCookies(page);
+
+  console.log('Waiting for Prematch IDs to be collected...');
+  await page.waitForTimeout(10000); // Wait for network requests
+
+  const idsToProcess = Array.from(matchIds);
+  console.log(`\nTotal unique prematch events found: ${idsToProcess.length}`);
+
+  // Process details for each found ID
+  for (const id of idsToProcess) {
+    if (processedIds.has(id)) continue;
+
+    console.log(`\n--- Processing Prematch ID: ${id} ---`);
+    const detailUrl = `https://ecuabet.com/deportes/partido/${id}`;
+
+    try {
+      await page.goto(detailUrl, {
+        waitUntil: 'domcontentloaded',
+        timeout: 30000,
+      });
+
+      let retries = 0;
+      while (!processedIds.has(id) && retries < 15) {
+        await page.waitForTimeout(1000);
+        retries++;
+      }
+
+      if (processedIds.has(id))
+        console.log(`Successfully processed prematch ${id}.`);
+      else console.log(`Timeout waiting for prematch data ${id}.`);
+    } catch (err) {
+      console.log(`Error navigating to match ${id}: ${err.message}`);
+    }
+  }
+
+  console.log('\nPrematch batch processing complete.');
+
+  // Save to separate file
+  const finalFilename = 'upcoming_matches.json';
+  fs.writeFileSync(finalFilename, JSON.stringify(allMatchesData, null, 2));
+
+  await browser.close();
+  return allMatchesData;
+}
+
 async function scrapeMatchInFrame(frameOrPage) {
   console.log('Attempting to scrape match details from frame/page...');
 
