@@ -16,6 +16,26 @@ const PORT = 3000;
 const JSON_FILE = path.join(__dirname, 'all_matches.json');
 const PREMATCH_JSON_FILE = path.join(__dirname, 'upcoming_matches.json');
 
+// --- MIDDLEWARE DE SEGURIDAD ---
+const validateApiKey = (req, res, next) => {
+  // Obtenemos la API Key de los headers (x-api-key)
+  const apiKey = req.headers['x-api-key'];
+
+  // La clave debe estar en las variables de entorno de EasyPanel
+  // Si no existe (local), usamos una por defecto para pruebas
+  const validApiKey = process.env.API_KEY ;
+
+  if (!apiKey || apiKey !== validApiKey) {
+    console.log(`Intento de acceso no autorizado desde: ${req.ip}`);
+    return res.status(401).json({
+      success: false,
+      message: 'Acceso denegado: API Key inválida o ausente.',
+    });
+  }
+
+  next();
+};
+
 app.use(cors());
 app.use(express.json());
 
@@ -52,7 +72,7 @@ app.get('/api/matches/prematch', (req, res) => {
 });
 
 // POST endpoint: Ejecuta el scraping (Live) y devuelve los datos frescos
-app.post('/api/scrape', async (req, res) => {
+app.post('/api/scrape', validateApiKey, async (req, res) => {
   try {
     console.log('Starting LIVE scrape process via API...');
     const data = await scrapeMatches();
@@ -74,7 +94,7 @@ app.post('/api/scrape', async (req, res) => {
 });
 
 // POST endpoint: Ejecuta el scraping (Prematch) y devuelve los datos frescos
-app.post('/api/ecuabet/scrape/prematch', async (req, res) => {
+app.post('/api/ecuabet/scrape/prematch', validateApiKey, async (req, res) => {
   try {
     console.log('Starting PREMATCH scrape process via API...');
     const data = await scrapePrematchEvents();
